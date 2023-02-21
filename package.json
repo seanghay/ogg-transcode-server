@@ -1,0 +1,15 @@
+{
+	"name": "ogg-transcode-server",
+	"description": "An HTTP server for transcoding OGG buffer to MP3 or WAV buffer.",
+	"type": "module",
+	"main": "index.js",
+	"dependencies": {
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"http-graceful-shutdown": "^3.1.13",
+		"lamejsfix": "^1.0.1",
+		"music-metadata": "^8.1.3",
+		"opus-stream-decoder": "^1.2.7",
+		"wav-encoder": "^1.3.0"
+	}
+}
