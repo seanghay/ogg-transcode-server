@@ -40,7 +40,7 @@ docker run -p "8080:8080" ghcr.io/seanghay/ogg-transcode-server:latest
 
 ## OGG to WAV
 
-**Path:** `/transcode-mp3`
+**Path:** `/transcode-wav`
 
 **Method:** `POST`
 
