@@ -21,7 +21,7 @@ docker run -p "8080:8080" ghcr.io/seanghay/ogg-transcode-server:latest
 > `8080` is the default port of the http server. It can be changed with a PORT env.
 
 
-## OGG to MP3
+## 1. OGG to MP3
 
 **Path:** `/transcode-mp3`
 
@@ -38,7 +38,7 @@ docker run -p "8080:8080" ghcr.io/seanghay/ogg-transcode-server:latest
   - `Content-Type`: `audio/mp3`
 
 
-## OGG to WAV
+## 2. OGG to WAV
 
 **Path:** `/transcode-wav`
 
